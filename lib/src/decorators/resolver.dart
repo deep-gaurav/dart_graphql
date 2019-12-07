@@ -1,0 +1,4 @@
+class Resolver{
+
+  const Resolver();
+}
