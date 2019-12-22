@@ -178,7 +178,7 @@ class Generator {
     var typeMain = matches.group(1);
     var args = matches.group(2);
 
-    if (typeMain == "Future") {
+    if (typeMain == 'Future' || typeMain == 'FutureOr') {
       return resolveFutureList(args, typeCheck);
     } else if (typeMain == "List") {
       return listOf(resolveFutureList(args, typeCheck));

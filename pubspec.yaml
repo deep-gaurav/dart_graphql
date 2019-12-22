@@ -15,7 +15,7 @@ dependencies:
   
 dependency_overrides:
   graphql_server:
-    path: ../sideproj/graphql/graphql_server
+    path: ../graphql/graphql_server
 
 
 dev_dependencies:
